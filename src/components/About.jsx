@@ -74,10 +74,10 @@ const serviceItemVariants = {
 
 function About() {
   return (
-    <section className=" px-2 sm:px-4 lg:px-6">
-      <div className="container mx-auto max-w-7xl">
+    <div className="aboutSection flex flex-col items-center justify-center w-full min-h-screen px-2 sm:px-4 lg:px-6">
+      <div className="container my-10 mx-auto max-w-7xl">
         <motion.div
-          className="bg-amber-800/20 backdrop-blur-xl bg-opacity-40 shadow-xl p-4 sm:p-6 md:p-8 lg:p-10 m-2 sm:m-4 md:m-6 lg:m-10 rounded-2xl sm:rounded-3xl border border-amber-200/30"
+          className="bg-transparent p-4 sm:p-6 md:p-8 lg:p-10 m-2 sm:m-4 md:m-6 lg:m-10 rounded-2xl sm:rounded-3xl "
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
@@ -121,7 +121,7 @@ function About() {
               {servicesItems.map((item, index) => (
                 <motion.div
                   key={index}
-                  className="flex flex-col items-center justify-start p-3 sm:p-4 md:p-5 gap-3 sm:gap-4 md:gap-5 bg-white/10 rounded-xl sm:rounded-2xl backdrop-blur-sm border border-amber-200/20 hover:bg-white/20 transition-colors duration-200"
+                  className="flex flex-col items-center justify-start p-3 sm:p-4 md:p-5 gap-3 sm:gap-4 md:gap-5"
                   variants={serviceItemVariants}
                   whileHover={{
                     scale: 1.05,
@@ -146,7 +146,7 @@ function About() {
           </motion.div>
         </motion.div>
       </div>
-    </section>
+    </div>
   );
 }
 
