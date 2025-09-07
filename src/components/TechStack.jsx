@@ -135,7 +135,7 @@ const TechIcons = [
 ];
 
 const TechStack = () => (
-  <div className="py-24 h-full w-full bg-[#0a0f1f]">
+  <div className="py-24 h-full w-full bg-[#0F0026]">
     {/* Section Title */}
     <motion.h2
       className="my-20 font-semibold text-center text-3xl sm:text-4xl md:text-5xl"
