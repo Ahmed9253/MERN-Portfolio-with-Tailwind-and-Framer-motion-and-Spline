@@ -93,11 +93,11 @@ function About() {
             </motion.h2>
 
             <motion.p
-              className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed text-center text-gray-800 font-medium drop-shadow-sm px-2 sm:px-4 md:px-6"
+              className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed text-center text-shadow-amber-50 font-medium drop-shadow-sm px-2 sm:px-4 md:px-6"
               variants={itemVariants}
             >
               Hey, I am{" "}
-              <span className="font-semibold text-amber-900">
+              <span className="font-semibold text-amber-300">
                 Muhammad Ahmed
               </span>{" "}
               — a Software and Web Developer, Data Scientist, and Hardware
@@ -145,6 +145,19 @@ function About() {
             </motion.div>
           </motion.div>
         </motion.div>
+        <div className="flex items-center justify-center">
+          <motion.a
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ type: "spring", stiffness: 40, damping: 25 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            href="#contact"
+            className=" bg-[#0c0c0c] text-sm sm:text-lg md:text-xl lg:text-2xl font-bold text-amber-500 hover:text-amber-100 border border-amber-500 hover:border-amber-400 rounded-xl px-4 py-2 sm:px-6 sm:py-3 transition-all duration-300 hover:shadow-lg"
+          >
+            Let's Have a Talk {">"}
+          </motion.a>
+        </div>
       </div>
     </div>
   );

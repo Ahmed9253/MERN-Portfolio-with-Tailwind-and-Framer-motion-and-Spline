@@ -3,6 +3,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
 import Navbar from "./components/Navbar";
+import TechStack from "./components/TechStack";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <About />
+      <TechStack />
       <Project />
       <Contact />
       <>
