@@ -63,17 +63,17 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ type: "tween", duration: 0.6, delay: 0.2 }}
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-bold mb-4 leading-tight text-white"
+            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-bold mb-4 leading-tight text-violet-300 text-center drop-shadow-lg"
             style={{ fontFamily: '"Playfair Display", serif' }}
           >
-            Muhammad <br /> Ahmed
+            𝐌𝐮𝐡𝐚𝐦𝐦𝐚𝐝 <br /> 𝐀𝐡𝐦𝐞𝐝 <br /> محمد احمد
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ type: "tween", duration: 0.6, delay: 0.3 }}
-            className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-purple-200 leading-relaxed px-2 sm:px-0"
+            className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-purple-200 text-center leading-relaxed px-2 sm:px-0"
           >
             A Software, Web Developer, Data Scientist and Tutor from Pakistan
           </motion.p>

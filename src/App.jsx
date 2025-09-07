@@ -6,6 +6,7 @@ import Project from "./components/Project";
 import Navbar from "./components/Navbar";
 import TechStack from "./components/TechStack";
 import Loading from "./components/Loading";
+import Copywrite from "./components/Copywrite";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -31,7 +32,7 @@ export default function App() {
       <Project />
       <Contact />
       <>
-        <p>&copy; 2025 DevQuantum, All right reserved</p>
+        <Copywrite />
       </>
     </>
   );
