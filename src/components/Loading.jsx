@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 export default function Loading() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-[#0F0026] space-y-6">
-      {/* Animated Greeting Line */}
+      {/* Greeting Line */}
       <motion.h1
-        className="text-3xl md:text-5xl font-mono font-bold text-white"
+        className="text-3xl md:text-5xl font-mono font-bold text-white text-center"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -14,9 +14,9 @@ export default function Loading() {
         <span className="text-[#4CC9F0]">Muhammad Ahmed</span> /&gt;
       </motion.h1>
 
-      {/* Animated Work Line */}
+      {/* Work */}
       <motion.h2
-        className="text-2xl md:text-4xl font-mono text-gray-300"
+        className="text-center text-2xl md:text-4xl font-mono text-gray-300"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.5 }}

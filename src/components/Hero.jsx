@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="min-h-screen w-full flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 py-6 sm:py-8 lg:py-24 relative overflow-hidden ">
       <Spline
         scene="https://prod.spline.design/FXIysuX2xA4CrIUF/scene.splinecode"
-        className="absolute  w-full h-full"
+        className="absolute w-full h-full"
       />
 
       {/* Note to understand this layout chaing the order of elements on larger vs smaller screens */}
@@ -19,13 +19,6 @@ const Hero = () => {
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{
-            type: "spring",
-            stiffness: 40,
-            damping: 25,
-            delay: 0.3,
-            duration: 1,
-          }}
           whileHover={{ scale: 1.02 }}
           className="order-1 lg:order-2 w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96 rounded-full border-4 border-amber-500 overflow-hidden shadow-2xl hover:shadow-amber-500/25 transition-all duration-300 flex-shrink-0"
         >

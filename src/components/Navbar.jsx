@@ -36,7 +36,7 @@ function Navbar() {
       </div>
 
       <div
-        className="absolute md:hidden top-5 right-14 border rounded-xl z-50 text-white/70 border-white/70 backdrop-blur-3xl p-2"
+        className="absolute md:hidden top-5 right-5 border rounded-xl z-50 text-white/70 border-white/70 backdrop-blur-3xl p-2"
         onClick={togleNav}
       >
         {open ? (
