@@ -10,7 +10,7 @@ export default function Loading() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        &lt;Hello My Name is{" "}
+        &lt;Hello! My Name is{" "}
         <span className="text-[#4CC9F0]">Muhammad Ahmed</span> /&gt;
       </motion.h1>
 

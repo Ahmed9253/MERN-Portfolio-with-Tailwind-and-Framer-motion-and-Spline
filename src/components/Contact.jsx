@@ -65,7 +65,7 @@ export default function Contact() {
 
         {/* Vector  */}
         <motion.div
-          className="flex justify-center items-center w-100 mx-45"
+          className="flex justify-center items-center w-70 md:w-100 mx-10 md:mx-50 lg:mx-40"
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, amount: 0.3 }}
