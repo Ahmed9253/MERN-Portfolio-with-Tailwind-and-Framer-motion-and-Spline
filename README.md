@@ -1,4 +1,4 @@
-# Portfolio (MERN + Vite + Tailwind + React 19 + Spline + React Icons)
+# Portfolio ( Vite + Tailwind + React 19 + Spline + React Icons)
 
 This is a personal **portfolio project** built with the **React , Tailwind and Framer-Motion**.  
 It uses **Vite** for fast builds, **Tailwind CSS** for styling, **React 19**, **Spline** for 3D assets, and **React Icons** for UI enhancements.
