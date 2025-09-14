@@ -9,8 +9,7 @@ const projects = [
     description:
       "A modern portfolio built with React, Tailwind, and Framer Motion.",
     tech: ["React", "Tailwind", "Framer Motion"],
-    image:
-      "https://images.unsplash.com/photo-1617042375876-d8779c9b24d4?auto=format&fit=crop&w=1200&q=80",
+    image: "/portfolio.png",
     github: "#",
   },
   {
@@ -19,8 +18,7 @@ const projects = [
     description:
       "Full-stack MERN e-commerce platform with cart and payment integration.",
     tech: ["MongoDB", "Express", "React", "Node.js"],
-    image:
-      "https://images.unsplash.com/photo-1605902711622-cfb43c4437d9?auto=format&fit=crop&w=1200&q=80",
+    image: "/ecom.png",
     github: "#",
   },
   {
@@ -28,8 +26,7 @@ const projects = [
     title: "Chat Application",
     description: "Real-time chat app using Socket.io and modern UI design.",
     tech: ["React", "Node.js", "Socket.io"],
-    image:
-      "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=1200&q=80",
+    image: "/chat.png",
     github: "#",
   },
   {
@@ -38,8 +35,7 @@ const projects = [
     description:
       "A productivity app for managing tasks with drag-and-drop support.",
     tech: ["React", "Redux", "Tailwind"],
-    image:
-      "https://images.unsplash.com/photo-1581090700227-4c4f50b4cdb7?auto=format&fit=crop&w=1200&q=80",
+    image: "/task.png",
     github: "#",
   },
 ];
@@ -70,11 +66,11 @@ export default function Project() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
           >
-            <div className="relative w-full md:w-1/2 h-64 md:h-full group rounded-xl overflow-hidden shadow-lg">
+            <div className="relative w-full md:w-1/2 h-65 border-t-gray-900 group rounded-xl overflow-hidden shadow-lg">
               <img
                 src={project.image}
                 alt={project.title}
-                className="object-cover w-full h-full"
+                className="object-cover w-full h-full "
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                 <h3 className="text-2xl font-bold text-amber-500">

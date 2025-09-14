@@ -11,6 +11,7 @@ It uses **Vite** for fast builds, **Tailwind CSS** for styling, **React 19**, **
 - Clean and minimal UI with React Icons
 - MERN stack structure for scalability
 - I have left out the footer section for your own to devalop as i do not needed it.
+- projects are demo so you can change with your own _real ones hmm._
 
 ## License
 
