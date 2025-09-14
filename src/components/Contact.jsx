@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
 
 export default function Contact() {
   return (
@@ -14,10 +15,10 @@ export default function Contact() {
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
       >
-        Let's have a Meeting
+        Let’s Have a Meeting
       </motion.h2>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center w-full max-w-6xl mt-1">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full max-w-6xl mt-4">
         {/* Contact Form */}
         <motion.form
           className="w-full bg-[#080017] p-6 rounded-2xl shadow-lg space-y-4"
@@ -63,9 +64,9 @@ export default function Contact() {
           </motion.button>
         </motion.form>
 
-        {/* Vector  */}
+        {/* Socials + Vector */}
         <motion.div
-          className="flex justify-center items-center w-70 md:w-100 mx-10 md:mx-50 lg:mx-40"
+          className="flex flex-col justify-center items-center text-center space-y-8"
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, amount: 0.3 }}
@@ -74,8 +75,50 @@ export default function Contact() {
           <img
             src="/contact.png"
             alt="Contact Illustration"
-            className="w-[80%] max-w-md"
+            className="w-[70%] max-w-md mx-auto"
           />
+
+          {/* Social Links */}
+          <div className="flex space-x-6 mt-6">
+            <motion.a
+              href="mailto:your@email.com"
+              className="text-amber-500 hover:text-amber-100 text-2xl transition-colors"
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <FaEnvelope />
+            </motion.a>
+            <motion.a
+              href="https://github.com/yourusername"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-amber-500 hover:text-amber-100 text-2xl transition-colors"
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <FaGithub />
+            </motion.a>
+            <motion.a
+              href="https://linkedin.com/in/yourusername"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-amber-500 hover:text-amber-100 text-2xl transition-colors"
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <FaLinkedin />
+            </motion.a>
+            <motion.a
+              href="https://twitter.com/yourusername"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-amber-500 hover:text-amber-100 text-2xl transition-colors"
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <FaTwitter />
+            </motion.a>
+          </div>
         </motion.div>
       </div>
     </div>

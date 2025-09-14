@@ -74,7 +74,10 @@ const serviceItemVariants = {
 
 function About() {
   return (
-    <div className="aboutSection flex flex-col items-center justify-center w-full min-h-screen px-2 sm:px-4 lg:px-6">
+    <div
+      id="about"
+      className="aboutSection flex flex-col items-center justify-center w-full min-h-screen px-2 sm:px-4 lg:px-6"
+    >
       <div className="container my-10 mx-auto max-w-7xl">
         <motion.div
           className="bg-transparent p-4 sm:p-6 md:p-8 lg:p-10 m-2 sm:m-4 md:m-6 lg:m-10 rounded-2xl sm:rounded-3xl "

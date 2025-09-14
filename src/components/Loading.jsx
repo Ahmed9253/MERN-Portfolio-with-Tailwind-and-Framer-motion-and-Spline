@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 export default function Loading() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-[#0F0026] space-y-6">
-      {/* Greeting Line */}
       <motion.h1
         className="text-3xl md:text-5xl font-mono font-bold text-white text-center"
         initial={{ opacity: 0, y: -20 }}
@@ -24,7 +23,7 @@ export default function Loading() {
         &lt;I work at <span className="text-[#F72585]">Dev Quantums</span> /&gt;
       </motion.h2>
 
-      {/* Loading Dots */}
+      {/* dots */}
       <div className="flex space-x-2 pt-4">
         {[0, 1, 2].map((i) => (
           <motion.span
