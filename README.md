@@ -1,13 +1,18 @@
-# React + Vite
+# Portfolio ( Vite + Tailwind + React 19 + Spline + React Icons)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal **portfolio project** built with the **React , Tailwind and Framer-Motion**.  
+It uses **Vite** for fast builds, **Tailwind CSS** for styling, **React 19**, **Spline** for 3D assets, and **React Icons** for UI enhancements.
 
-Currently, two official plugins are available:
+## Features
+- Modern React 19 with Vite
+- Tailwind CSS for responsive design
+- Interactive 3D elements with Spline
+- Clean and minimal UI with React Icons
+- MERN stack structure for scalability
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## License
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute it.  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# MERN-Portfolio-with-Tailwind-and-Framer-motion-and-Spline
+⚠️ **Disclaimer:**  
+I do not take any responsibility for misuse of this project.

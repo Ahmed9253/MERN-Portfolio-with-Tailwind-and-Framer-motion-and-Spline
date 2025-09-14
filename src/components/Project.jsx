@@ -120,7 +120,8 @@ export default function Project() {
       >
         <motion.a
           href="#"
-          className="bg-[#0c0c0c] text-lg font-bold text-amber-500 hover:text-amber-100 border border-amber-500 hover:border-amber-400 rounded-xl px-6 py-3 transition-all duration-300 hover:shadow-lg cursor-pointer"
+          className="bg-[#0c0c0c] text-lg font-bold text-amber-500 hover:text-amber-100 border border-amber-500 hover:border-amber-400 roundemergin
+          px-6 py-3 transition-all duration-300 hover:shadow-lg cursor-pointer"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
